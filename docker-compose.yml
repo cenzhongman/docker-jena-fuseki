@@ -12,4 +12,5 @@ services:
       - fuseki-data:/fuseki
 
 volumes:
-  - fuseki-data: local
+  fuseki-data:
+    driver: local
